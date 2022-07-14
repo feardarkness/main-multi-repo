@@ -17,7 +17,12 @@ In any case, the first time a submodule is added, a .gitmodules file is created.
 
 ## Pushing updates
 
-- In the main project (root folder), you can see the project modifications in the main project or in the submodules. Pushing modifications in the child modules requires that you are in the submodule folder.
+
+### Option 1
+In the main project (root folder), you can see the project modifications in the main project or in the submodules. Pushing modifications in the child modules requires that you are in the submodule folder and do a normal push
+
+### Option 2
+
 
 ## Cloning the project
 
@@ -66,5 +71,7 @@ $ git submodule update --remote repos/events
 Setting the branch as *main* in the *repos/events* submodule.
 
 ```
-# git config -f .gitmodules submodule.repos/events.branch main
+$ git config -f .gitmodules submodule.repos/events.branch main
 ```
+
+## Check 
