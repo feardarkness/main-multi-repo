@@ -4,3 +4,6 @@
 [submodule "child2-multi-repo"]
 	path = child2-multi-repo
 	url = git@github.com:feardarkness/child2-multi-repo.git
+[submodule "repos/events"]
+	path = repos/events
+	url = git@github.com:feardarkness/child2-multi-repo.git
