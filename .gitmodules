@@ -1,0 +1,6 @@
+[submodule "child1-multi-repo"]
+	path = child1-multi-repo
+	url = git@github.com:feardarkness/child1-multi-repo.git
+[submodule "child2-multi-repo"]
+	path = child2-multi-repo
+	url = git@github.com:feardarkness/child2-multi-repo.git
