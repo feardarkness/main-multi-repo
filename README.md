@@ -47,7 +47,7 @@ Clone recursively
 $ git clone --recurse-submodules git@github.com:feardarkness/main-repo.git
 ```
 
-## Update repos
+## Update project (including repositories) from the remote
 
 ### Option 1
 
