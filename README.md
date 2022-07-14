@@ -74,4 +74,8 @@ Setting the branch as *main* in the *repos/events* submodule.
 $ git config -f .gitmodules submodule.repos/events.branch main
 ```
 
-## Check 
+## Update all submodules
+
+```
+$ git submodule update --remote --merge
+```
